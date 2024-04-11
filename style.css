@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(5, 32, 57);
+
+    color: white;
+
+}
+
+.navbar span {
+    color: aqua;
+
+    font-size: 20px;
+
+
+}
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    top: 5px;
+
+}
+
+.nav1 {
+    width: 30%;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    justify-content: space-around;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}
+
+.nav2 {
+    width: 30%;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    justify-content: space-around;
+    font-size: 15px;
+    text-align: center;
+
+
+}
+
+.nav2 button {
+    width: 110px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(189, 208, 226);
+    color: white;
+    text-align: left;
+    right: 10px;
+    position: relative;
+
+}
+
+#select {
+    position: absolute;
+    left: 260px;
+    top: 4px;
+    border: none;
+
+}
+
+.gn {
+    border-radius: 50%;
+    background-color: yellow;
+    padding: 1px;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 280px;
+    top: 1px;
+
+
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .nav2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    #select {
+        left: 10px;
+        top: 10px;
+    }
+
+    .gn {
+        left: 10px;
+        top: 10px;
+    }
+}
+
+.container {
+    width: 100%;
+    margin-left: 30px;
+
+}
+
+.container .left-card {
+    width: 50%;
+    display: block;
+
+    height: auto;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    height: 100%;
+    margin-top: 40px;
+
+
+
+}
+
+.nifty {
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+    width: 50%;
+}
+
+.nifty li {
+    list-style: none;
+}
+
+.list {
+    width: 50%;
+}
+
+.row .list ul {
+    margin: 20px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    
+
+}
+
+.row .list ul li {
+    list-style-type: none;
+
+
+    width: 50%;
+    border: 1px white;
+    border-radius: 20px;
+
+
+}
+
+.row .list {
+    width: 50%;
+    border: 1px white;
+    padding: 2px;
+
+
+}
+
+.right-card {
+
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    transform: rotateX(50%);
+
+    color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .2);
+    width: 90%;
+
+
+}
+
+@media screen and (max-width:678px) {
+    ul li {
+        width: 100%;
+
+    }
+
+    .right-card {
+        /* right: -150px; */
+        top: -100px;
+        right: auto;
+        bottom: 10px;
+        transform: rotate(0deg);
+    }
+}
+
+.right-card .row {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+
+}
+
+
+
+.right-card .acc1 {
+
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    cursor: pointer;
+
+
+
+}
+
+.right-card .acc2 {
+
+    border-radius: 5px;
+    color: #c6a761;
+
+    padding: 4px;
+    margin-top: -10px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.account {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform: rotateX(50%);
+
+    color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .2);
+    width: 20%;
+    border-radius: 5px;
+
+}
+
+.card p {}
+
+.card .target1 {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    transform: rotateX(50%);
+
+    color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .2);
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card .target2 {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    transform: rotateX(50%);
+
+    color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .2);
+    width: 40%;
+    border-radius: 5px;
+
+
+}
+
+.card .target3 {
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    transform: rotateX(50%);
+    margin-top: 10px;
+
+    color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .2);
+    width: 40%;
+    border-radius: 5px;
+}
+
+.card .target4 {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    transform: rotateX(50%);
+
+    color: white;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, .2);
+    width: 40%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+@m
